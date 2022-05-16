@@ -60,3 +60,31 @@ button:hover {
 #clock {
   display: none;
 }
+
+label {
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+
+.custom-select {
+  padding: 0.25em 0.5em;
+
+  line-height: 2;
+}
+
+.custom-select select {
+  width: 7.2rem;
+
+  font-size: 0.9rem;
+
+  outline: none;
+  border: none;
+
+  cursor: pointer;
+  /* Important */
+  -webkit-appearance: button;
+
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+
+  background-color: whitesmoke;
+}
