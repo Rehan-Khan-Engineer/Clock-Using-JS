@@ -27,7 +27,7 @@ function getTime() {
 
     if (hours > 12) {
       hours = hours - 12;
-      session = "PM";
+      session = "";
     }
 
     console.log("working for 12 format");
