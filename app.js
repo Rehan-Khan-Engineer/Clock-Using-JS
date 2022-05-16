@@ -27,7 +27,7 @@ function getTime() {
 
     if (hours > 12) {
       hours = hours - 12;
-      session = "";
+      session = "PM";
     }
 
     console.log("working for 12 format");
@@ -35,7 +35,7 @@ function getTime() {
     getFormat.options[getFormat.selectedIndex].value === "24 Hour clock"
   ) {
     if (hours > 12) {
-      session = "PM";
+      session = "";
     }
 
     console.log("working for 24 format");
