@@ -32,7 +32,7 @@ function getTime() {
   } else if (
     getFormat.options[getFormat.selectedIndex].value === "24 Hour clock"
   ) {
-    if (hours > 12 || hours < 12) {
+    if (hours > 12 || hours <= 12) {
       session = "";
     }
   }
