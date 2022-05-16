@@ -29,16 +29,12 @@ function getTime() {
       hours = hours - 12;
       session = "PM";
     }
-
-    console.log("working for 12 format");
   } else if (
     getFormat.options[getFormat.selectedIndex].value === "24 Hour clock"
   ) {
     if (hours > 12 || hours < 12) {
       session = "";
     }
-
-    console.log("working for 24 format");
   }
 
   const getClock = document.getElementById("clock");
